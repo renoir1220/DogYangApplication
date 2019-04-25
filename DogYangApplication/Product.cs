@@ -14,20 +14,8 @@ namespace DogYangApplication
     
     public partial class Product
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Product()
-        {
-            this.Activity = new HashSet<Activity>();
-            this.TargetPopulation = new HashSet<TargetPopulation>();
-        }
-    
         public int Id { get; set; }
         public string Name { get; set; }
         public byte[] Picture { get; set; }
-    
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Activity> Activity { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<TargetPopulation> TargetPopulation { get; set; }
     }
 }

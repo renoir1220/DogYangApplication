@@ -5,12 +5,9 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="50cba616a1264d68b990d4ec703d3345" Name="Diagram1" >
-        <EntityTypeShape EntityType="Model.Product" Width="1.5" PointX="8.875" PointY="6.375" />
+        <EntityTypeShape EntityType="Model.Product" Width="1.5" PointX="9" PointY="2.625" />
         <EntityTypeShape EntityType="Model.Activity" Width="1.5" PointX="6.625" PointY="2.625" />
         <EntityTypeShape EntityType="Model.TargetPopulation" Width="1.5" PointX="11.625" PointY="2.75" />
-        <AssociationConnector Association="Model.ActivityTargetPopulation" />
-        <AssociationConnector Association="Model.ProductActivity" />
-        <AssociationConnector Association="Model.ProductTargetPopulation" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
